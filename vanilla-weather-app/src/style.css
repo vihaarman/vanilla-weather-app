@@ -1,3 +1,54 @@
+body {
+  color: #b8860b;
+  font-family: "SF Mono", sans-serif;
+}
+li {
+  list-style: none;
+}
+
 li:first-letter {
   text-transform: capitalize;
+}
+
+#city {
+  background-color: #f8e7e7;
+  border-radius: 35px;
+  max-width: 350px;
+  text-align: center;
+  padding: 40px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#description-date {
+  background-color: #f8e7e7;
+  border-radius: 35px;
+  max-width: 350px;
+}
+
+#specify-temperature {
+  background-color: #f8e7e7;
+  border-radius: 35px;
+  max-width: 340px;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.weather-app {
+  background-color: #fdf3f3;
+  max-width: max-content;
+  border-radius: 35px;
+  margin-bottom: 30px;
+  padding-left: 60px;
+  margin: 5px solid #b8860b;
+  border: #b8860b solid 1px;
+}
+
+#weather-details {
+  background-color: #f8e7e7;
+  border-radius: 35px;
+  max-width: 340px;
+  margin-bottom: 30px;
+  padding-top: 25px;
 }
