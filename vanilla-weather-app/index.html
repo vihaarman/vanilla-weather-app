@@ -18,30 +18,37 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <h1>London</h1>
+        <div class="overview">
+          <h1 id="city">London</h1>
 
-        <ul>
-          <li>Friday 18:00</li>
-          <li>Cloudy</li>
-        </ul>
+          <ul>
+            <li>Last updated: <span id="date"></span></li>
+            <li id="description"></li>
+          </ul>
+        </div>
 
         <div class="row">
           <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            />
+            <div class="clearfix weather-temperature">
+              <div class="float-left">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                />
 
-            14°C | °F
+                <strong id="temperature"></strong
+                ><span class="units"> °C </span>
+              </div>
+            </div>
           </div>
 
           <div class="col-6">
             <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 73%</li>
-              <li>Wind: 3km</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> Km/h</li>
             </ul>
           </div>
         </div>
+        <div class="weather-forecast" id="forecast"></div>
       </div>
       <form id="search-form" class="mb-2">
         <div class="row">
@@ -61,7 +68,7 @@
       </form>
       <small>
         <a href="https://github.com/vihaarman/vanilla-weather-app"
-          >Coded by V.G.B.</a
+          >Coded by Viviane Gonçalves</a
         >
       </small>
     </div>
