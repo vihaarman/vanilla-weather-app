@@ -35,12 +35,17 @@ li:first-letter {
   margin-left: 10px;
 }
 
+#forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .weather-app {
   background-color: #fdf3f3;
   max-width: max-content;
   border-radius: 35px;
   margin-bottom: 30px;
-  padding-left: 60px;
+  padding-left: 40px;
   margin: 5px solid #b8860b;
   border: #b8860b solid 1px;
 }
@@ -51,4 +56,16 @@ li:first-letter {
   max-width: 340px;
   margin-bottom: 30px;
   padding-top: 25px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.8;
+}
+.temperature-min {
+  opacity: 0.8;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
