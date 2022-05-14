@@ -35,14 +35,16 @@ li:first-letter {
   margin-left: 10px;
 }
 
-#forecast {
-  margin-top: 20px;
+.weather-forecast {
+  margin: 20px 0 40px 0;
   text-align: center;
 }
 
 .weather-app {
   background-color: #fdf3f3;
-  max-width: max-content;
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
   border-radius: 35px;
   margin-bottom: 30px;
   padding-left: 40px;
@@ -68,4 +70,9 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+small {
+  text-align: center;
+  margin: 30px auto;
 }

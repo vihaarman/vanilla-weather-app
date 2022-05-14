@@ -29,13 +29,16 @@
         </div>
 
         <div class="row">
-          <div class="col-2" id="specify-temperature">
+          <div class="col-6" id="specify-temperature">
             <div class="clearfix weather-temperature">
               <div class="float-left">
                 <img src="" alt="" id="icon" class="float-left" />
 
                 <strong id="temperature"></strong
-                ><span class="units"> °C | °F </span>
+                ><span class="units"
+                  ><a href="#" id="celsius-link" class="active"> °C </a>|
+                  <a href="#" id="fahrenheit-link"> °F</a>
+                </span>
               </div>
             </div>
           </div>
@@ -47,22 +50,7 @@
             </ul>
           </div>
         </div>
-        <div class="weather-forecast" id="forecast">
-          <div class="row">
-            <div class="col-2">
-              <div class="weather-forecast-date">Thu</div>
-              <img
-                src="http://openweathermap.org/img/wn/01d@2x.png"
-                alt=""
-                width="36"
-              />
-              <div class="weather-forecast-temperatures">
-                <span class="temperature-max">23°C</span>
-                <span class="temperature-min">20°C</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
 
         <form id="search-form" class="mb-2">
           <div class="row">
