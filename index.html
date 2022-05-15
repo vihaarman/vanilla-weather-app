@@ -14,6 +14,7 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+
     <title>Weather App</title>
   </head>
   <body>
@@ -29,13 +30,15 @@
         </div>
 
         <div class="row">
-          <div class="col-2" id="specify-temperature">
+          <div class="col-6" id="specify-temperature">
             <div class="clearfix weather-temperature">
               <div class="float-left">
                 <img src="" alt="" id="icon" class="float-left" />
 
                 <strong id="temperature"></strong
-                ><span class="units"> °C | °F </span>
+                ><span class="units"
+                  >°C </a>
+                </span>
               </div>
             </div>
           </div>
@@ -48,28 +51,29 @@
           </div>
         </div>
         <div class="weather-forecast" id="forecast"></div>
+
+        <form id="search-form" class="mb-2">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Enter a city..."
+                class="form-control"
+                id="city-input"
+                autocomplete="off"
+              />
+            </div>
+            <div class="col-3">
+              <input type="submit" value="Search" class="btn btn-info" />
+            </div>
+          </div>
+        </form>
+        <small>
+          <a href="https://github.com/vihaarman/vanilla-weather-app"
+            >Coded by Viviane Gonçalves</a
+          >
+        </small>
       </div>
-      <form id="search-form" class="mb-2">
-        <div class="row">
-          <div class="col-6">
-            <input
-              type="search"
-              placeholder="Enter a city..."
-              class="form-control"
-              id="city-input"
-              autocomplete="off"
-            />
-          </div>
-          <div class="col-3">
-            <input type="submit" value="Search" class="btn btn-info w-10" />
-          </div>
-        </div>
-      </form>
-      <small>
-        <a href="https://github.com/vihaarman/vanilla-weather-app"
-          >Coded by Viviane Gonçalves</a
-        >
-      </small>
     </div>
 
     <script src="src/app.js"></script>
