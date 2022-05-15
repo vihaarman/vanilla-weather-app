@@ -11,33 +11,46 @@ li:first-letter {
 }
 
 #city {
-  background-color: #f8e7e7;
-  border-radius: 35px;
-  max-width: 350px;
-  text-align: center;
-  padding: 40px;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin: 50px 0 50px 0;
+  font-weight: 700;
+  font-size: 60px;
 }
 
 #description-date {
+  top: 5px;
+  right: -200px;
+  padding: 90px 25px 85px 25px;
+  margin: 5px 0 0 102px;
+  border-radius: 15px;
+  font-size: 25px;
+  max-width: 540px;
   background-color: #f8e7e7;
-  border-radius: 35px;
-  max-width: 350px;
+  font-weight: 100;
+  border: #b8860b solid 0.5px;
 }
 
 #specify-temperature {
+  position: relative;
+  top: 5px;
+  right: -100px;
+  padding: 80px 25px 85px 0;
+  margin: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  max-width: 250px;
   background-color: #f8e7e7;
-  border-radius: 35px;
-  max-width: 340px;
-  margin-bottom: 30px;
-  margin-right: 15px;
-  margin-left: 10px;
+  font-weight: 100;
+  border: #b8860b solid 0.5px;
 }
 
 .weather-forecast {
-  margin: 20px 0 40px 0;
+  margin: 15px 0 25px 100px;
   text-align: center;
+  background-color: #ffff;
+  border-radius: 15px;
+  padding: 20px 25px 25px 0;
+  max-width: 550px;
+  border: #b8860b solid 0.5px;
 }
 
 .weather-app {
@@ -47,17 +60,23 @@ li:first-letter {
   text-align: center;
   border-radius: 35px;
   margin-bottom: 30px;
-  padding-left: 40px;
+  padding: 10px;
   margin: 5px solid #b8860b;
   border: #b8860b solid 1px;
 }
 
 #weather-details {
+  position: relative;
+  top: 5px;
+  right: -100px;
+  padding: 90px 25px 85px 0;
+  margin: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  max-width: 250px;
   background-color: #f8e7e7;
-  border-radius: 35px;
-  max-width: 340px;
-  margin-bottom: 30px;
-  padding-top: 25px;
+  font-weight: 100;
+  border: #b8860b solid 0.5px;
 }
 
 .weather-forecast-date {
@@ -72,7 +91,23 @@ li:first-letter {
   font-size: 13px;
 }
 
-small {
+#search-form {
+  margin: 0 0 25px 85px;
+  padding: 15px;
+  max-width: 700px;
+}
+
+.units {
+  font-size: 20px;
+}
+
+a {
   text-align: center;
   margin: 30px auto;
+  color: #b8860b;
+}
+a:visited {
+  color: #f5b3bc;
+  background-color: transparent;
+  text-decoration: none;
 }

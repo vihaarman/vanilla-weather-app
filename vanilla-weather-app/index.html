@@ -14,6 +14,7 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+
     <title>Weather App</title>
   </head>
   <body>
@@ -36,8 +37,7 @@
 
                 <strong id="temperature"></strong
                 ><span class="units"
-                  ><a href="#" id="celsius-link" class="active"> °C </a>|
-                  <a href="#" id="fahrenheit-link"> °F</a>
+                  >°C </a>
                 </span>
               </div>
             </div>
@@ -64,16 +64,16 @@
               />
             </div>
             <div class="col-3">
-              <input type="submit" value="Search" class="btn btn-info w-10" />
+              <input type="submit" value="Search" class="btn btn-info" />
             </div>
           </div>
         </form>
+        <small>
+          <a href="https://github.com/vihaarman/vanilla-weather-app"
+            >Coded by Viviane Gonçalves</a
+          >
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/vihaarman/vanilla-weather-app"
-          >Coded by Viviane Gonçalves</a
-        >
-      </small>
     </div>
 
     <script src="src/app.js"></script>
